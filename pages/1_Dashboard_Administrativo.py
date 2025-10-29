@@ -116,7 +116,7 @@ with col1:
     st.metric(
         "🗑️ Total de Lixeiras",
         total_bins,
-        delta=f"+{len([b for b in bins_data if b['status'] == 'active'])} ativas"
+        delta=f"+ {len([b for b in bins_data if b['status'] == 'active'])} ativas"
     )
 
 with col2:
